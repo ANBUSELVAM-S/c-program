@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{
+   int n;
+   char a,b;
+   scanf("%c",&a);
+   scanf("%c",&b);
+   printf("%d + %d =%d",a,b,a+b);
+   
+
+    return 0;
+}
