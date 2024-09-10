@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{
+   int amount,temp,i;
+   int notes[3]={10,5,1};
+   scanf("%d",&amount);
+   temp = amount;
+   for(i=0;i<3;i++)
+   {
+      printf("\n %d the result:%d",notes[i],temp/notes[i]);
+      temp = temp % notes[i];
+   }
+
+    return 0;
+}
