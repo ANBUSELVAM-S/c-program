@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main()
+{
+   int arr[100];
+   int i,n,j,temp,ctr=0;
+   scanf("%d",&n);
+   for(i=0;i<n;i++)
+   {
+       scanf("%d",&arr[i]);
+   }
+   printf("the element are number:");
+   for(i=0;i<n;i++)
+   {
+       if(arr[i]==n)
+       {
+           ctr++;
+           
+       }
+}
+    printf("the number of count is:",ctr);
+    return 0;
+}
