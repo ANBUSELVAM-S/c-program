@@ -1,0 +1,32 @@
+#include<stdio.h>
+int main()
+{
+    int arr[50];
+    int n,i,j;
+    int mx,mn,odd,even;
+    scanf("%d",&n);
+    for(i=0;i<n;i++)
+    {
+        scanf("%d",&arr[i]);
+    }
+    
+    for(i=0;i<n;i++)
+    {
+          if(arr[i]%2==0)
+          {
+              odd=arr[i];
+              printf("\nthe even array:%d",odd);
+          }
+         else
+          
+          {
+              even=arr[i];
+               printf("\nthe odd array:%d",even);
+          }
+          
+         
+    }
+   
+    return 0;
+
+}
