@@ -9,15 +9,14 @@ int main()
    {
        scanf("%d",&arr[i]);
    }
-   printf("the element are number:");
    for(i=0;i<n;i++)
    {
-       if(arr[i]==n)
+       if(arr[i]!=n)
        {
            ctr++;
            
        }
 }
-    printf("the number of count is:",ctr);
+    printf("the number of count is:%d",ctr);
     return 0;
 }
